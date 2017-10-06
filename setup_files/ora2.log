@@ -1,0 +1,1620 @@
+Connected.
+******  Creating REGIONS table ....
+
+Table REGIONS created.
+
+
+INDEX REG_ID_PK created.
+
+
+Table REGIONS altered.
+
+******  Creating COUNTRIES table ....
+
+Table COUNTRIES created.
+
+
+Table COUNTRIES altered.
+
+******  Creating LOCATIONS table ....
+
+Table LOCATIONS created.
+
+
+INDEX LOC_ID_PK created.
+
+
+Table LOCATIONS altered.
+
+
+Sequence LOCATIONS_SEQ created.
+
+******  Creating DEPARTMENTS table ....
+
+Table DEPARTMENTS created.
+
+
+INDEX DEPT_ID_PK created.
+
+
+Table DEPARTMENTS altered.
+
+
+Sequence DEPARTMENTS_SEQ created.
+
+******  Creating JOBS table ....
+
+Table JOBS created.
+
+
+INDEX JOB_ID_PK created.
+
+
+Table JOBS altered.
+
+******  Creating EMPLOYEES table ....
+
+Table EMPLOYEES created.
+
+
+INDEX EMP_EMP_ID_PK created.
+
+
+Table EMPLOYEES altered.
+
+
+Table DEPARTMENTS altered.
+
+
+Sequence EMPLOYEES_SEQ created.
+
+******  Creating JOB_HISTORY table ....
+
+Table JOB_HISTORY created.
+
+
+INDEX JHIST_EMP_ID_ST_DATE_PK created.
+
+
+Table JOB_HISTORY altered.
+
+******  Creating EMP_DETAILS_VIEW view ...
+
+View EMP_DETAILS_VIEW created.
+
+
+Commit complete.
+
+
+Session altered.
+
+******  Populating REGIONS table ....
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+******  Populating COUNTIRES table ....
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+******  Populating LOCATIONS table ....
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+******  Populating DEPARTMENTS table ....
+
+Table DEPARTMENTS altered.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+******  Populating JOBS table ....
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+******  Populating EMPLOYEES table ....
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+******  Populating JOB_HISTORY table ....
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table DEPARTMENTS altered.
+
+
+Commit complete.
+
+
+Index EMP_DEPARTMENT_IX created.
+
+
+Index EMP_JOB_IX created.
+
+
+Index EMP_MANAGER_IX created.
+
+
+Index EMP_NAME_IX created.
+
+
+Index DEPT_LOCATION_IX created.
+
+
+Index JHIST_JOB_IX created.
+
+
+Index JHIST_EMPLOYEE_IX created.
+
+
+Index JHIST_DEPARTMENT_IX created.
+
+
+Index LOC_CITY_IX created.
+
+
+Index LOC_STATE_PROVINCE_IX created.
+
+
+Index LOC_COUNTRY_IX created.
+
+
+Commit complete.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Commit complete.
+
+
+Error starting at line : 10 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\dis_trigger.sql
+In command -
+ALTER TRIGGER secure_employees DISABLE
+Error report -
+ORA-04080: trigger 'SECURE_EMPLOYEES' does not exist
+04080. 00000 -  "trigger '%s' does not exist"
+*Cause:    The TRIGGER name is invalid.
+*Action:   Check the trigger name.
+
+Error starting at line : 12 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\dis_trigger.sql
+In command -
+ALTER TRIGGER update_job_history DISABLE
+Error report -
+ORA-04080: trigger 'UPDATE_JOB_HISTORY' does not exist
+04080. 00000 -  "trigger '%s' does not exist"
+*Cause:    The TRIGGER name is invalid.
+*Action:   Check the trigger name.
+
+Error starting at line : 1 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_STUDENT_ATTENDANCE
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 3 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_STUDENT_COURSE_DETAILS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 5 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_STUDENT_DETAILS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 7 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_FACULTY_LOGIN_DETAILS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 9 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_FACULTY_COURSE_DETAILS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 11 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_EXAM_RESULTS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 13 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_COURSE_DETAILS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 15 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_EXAM_DETAILS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 17 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_PARENT_INFORMATION
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 19 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_EXAM_TYPE
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 21 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_DEPARTMENTS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 23 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_FACULTY_DETAILS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 25 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_JOBS
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Error starting at line : 27 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\ad_drop_table.sql
+In command -
+DROP TABLE AD_ACADEMIC_SESSION
+Error report -
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:
+*Action:
+
+Table AD_ACADEMIC_SESSION created.
+
+
+Table AD_COURSE_DETAILS created.
+
+
+Table AD_DEPARTMENTS created.
+
+
+Table AD_EXAM_DETAILS created.
+
+
+Table AD_EXAM_RESULTS created.
+
+
+Table AD_EXAM_TYPE created.
+
+
+Table AD_FACULTY_COURSE_DETAILS created.
+
+******  Creating AD_JOBS table ....
+
+Table AD_JOBS created.
+
+******  Creating AD_FACULTY_DETAILS table ....
+
+Table AD_FACULTY_DETAILS created.
+
+
+Table AD_FACULTY_LOGIN_DETAILS created.
+
+
+Table AD_PARENT_INFORMATION created.
+
+
+Table AD_STUDENT_ATTENDANCE created.
+
+
+Table AD_STUDENT_COURSE_DETAILS created.
+
+
+Table AD_STUDENT_DETAILS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table AD_ACADEMIC_SESSION altered.
+
+
+Table AD_COURSE_DETAILS altered.
+
+
+Table AD_DEPARTMENTS altered.
+
+
+Table AD_EXAM_DETAILS altered.
+
+
+Table AD_EXAM_TYPE altered.
+
+
+Table AD_JOBS altered.
+
+
+Table AD_FACULTY_DETAILS altered.
+
+
+Table AD_FACULTY_DETAILS altered.
+
+
+Table AD_PARENT_INFORMATION altered.
+
+
+Table AD_STUDENT_DETAILS altered.
+
+
+Table AD_COURSE_DETAILS altered.
+
+
+Table AD_COURSE_DETAILS altered.
+
+
+Table AD_EXAM_DETAILS altered.
+
+
+Table AD_EXAM_RESULTS altered.
+
+
+Table AD_EXAM_RESULTS altered.
+
+
+Table AD_FACULTY_COURSE_DETAILS altered.
+
+
+Table AD_FACULTY_COURSE_DETAILS altered.
+
+
+Table AD_FACULTY_LOGIN_DETAILS altered.
+
+
+Table AD_STUDENT_ATTENDANCE altered.
+
+
+Table AD_STUDENT_COURSE_DETAILS altered.
+
+
+Table AD_STUDENT_COURSE_DETAILS altered.
+
+
+Table AD_STUDENT_DETAILS altered.
+
+
+Table AD_STUDENT_DETAILS altered.
+
+
+Table AD_FACULTY_LOGIN_DETAILS altered.
+
+
+Table AD_PARENT_INFORMATION altered.
+

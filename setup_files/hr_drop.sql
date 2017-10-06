@@ -1,0 +1,67 @@
+CONNECT ora1/ora1
+DROP PROCEDURE add_job_history;
+DROP PROCEDURE secure_dml;
+DROP VIEW emp_details_view;
+DROP SEQUENCE departments_seq;
+DROP SEQUENCE employees_seq;
+DROP SEQUENCE locations_seq;
+DROP TABLE regions     CASCADE CONSTRAINTS;
+DROP TABLE departments CASCADE CONSTRAINTS;
+DROP TABLE locations   CASCADE CONSTRAINTS;
+DROP TABLE jobs        CASCADE CONSTRAINTS;
+DROP TABLE job_history CASCADE CONSTRAINTS;
+DROP TABLE employees   CASCADE CONSTRAINTS;
+DROP TABLE countries   CASCADE CONSTRAINTS;  
+
+CONNECT ora2/ora2
+DROP PROCEDURE add_job_history;
+DROP PROCEDURE secure_dml;
+DROP VIEW emp_details_view;
+DROP SEQUENCE departments_seq;
+DROP SEQUENCE employees_seq;
+DROP SEQUENCE locations_seq;
+DROP TABLE regions     CASCADE CONSTRAINTS;
+DROP TABLE departments CASCADE CONSTRAINTS;
+DROP TABLE locations   CASCADE CONSTRAINTS;
+DROP TABLE jobs        CASCADE CONSTRAINTS;
+DROP TABLE job_history CASCADE CONSTRAINTS;
+DROP TABLE employees   CASCADE CONSTRAINTS;
+DROP TABLE countries   CASCADE CONSTRAINTS;  
+
+CONNECT ora3/ora3
+DROP PROCEDURE add_job_history;
+DROP PROCEDURE secure_dml;
+DROP VIEW emp_details_view;
+DROP SEQUENCE departments_seq;
+DROP SEQUENCE employees_seq;
+DROP SEQUENCE locations_seq;
+DROP TABLE regions     CASCADE CONSTRAINTS;
+DROP TABLE departments CASCADE CONSTRAINTS;
+DROP TABLE locations   CASCADE CONSTRAINTS;
+DROP TABLE jobs        CASCADE CONSTRAINTS;
+DROP TABLE job_history CASCADE CONSTRAINTS;
+DROP TABLE employees   CASCADE CONSTRAINTS;
+DROP TABLE countries   CASCADE CONSTRAINTS;  
+
+CONNECT ora4/ora4
+DROP PROCEDURE add_job_history;
+DROP PROCEDURE secure_dml;
+DROP VIEW emp_details_view;
+DROP SEQUENCE departments_seq;
+DROP SEQUENCE employees_seq;
+DROP SEQUENCE locations_seq;
+DROP TABLE regions     CASCADE CONSTRAINTS;
+DROP TABLE departments CASCADE CONSTRAINTS;
+DROP TABLE locations   CASCADE CONSTRAINTS;
+DROP TABLE jobs        CASCADE CONSTRAINTS;
+DROP TABLE job_history CASCADE CONSTRAINTS;
+DROP TABLE employees   CASCADE CONSTRAINTS;
+DROP TABLE countries   CASCADE CONSTRAINTS; 
+
+connect system/oracle
+
+drop user ora1 cascade;
+drop user ora2 cascade;
+drop user ora3 cascade;
+drop user ora4 cascade;
+commit;

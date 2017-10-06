@@ -1,0 +1,243 @@
+SQL> 
+SQL> drop role orax;
+
+Error starting at line : 10 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\create_users.sql
+In command -
+drop role orax
+Error report -
+ORA-01919: role 'ORAX' does not exist
+01919. 00000 -  "role '%s' does not exist"
+*Cause:    Role by that name does not exist.
+*Action:   Verify you are using the correct role name.
+SQL> create role orax;
+
+Role ORAX created.
+
+SQL> grant alter session to orax;
+
+Grant succeeded.
+
+SQL> grant create session to orax;
+
+Grant succeeded.
+
+SQL> grant create table to orax;
+
+Grant succeeded.
+
+SQL> grant create view to orax;
+
+Grant succeeded.
+
+SQL> grant create sequence to orax;
+
+Grant succeeded.
+
+SQL> grant create synonym to orax;
+
+Grant succeeded.
+
+SQL> grant create procedure to orax;
+
+Grant succeeded.
+
+SQL> grant create trigger to orax;
+
+Grant succeeded.
+
+SQL> grant create type to orax;
+
+Grant succeeded.
+
+SQL> grant query rewrite to orax;
+
+Grant succeeded.
+
+SQL> grant create any index to orax;
+
+Grant succeeded.
+
+SQL> grant create role to orax;
+
+Grant succeeded.
+
+SQL> grant create user to orax;
+
+Grant succeeded.
+
+SQL> grant create any directory to orax;
+
+Grant succeeded.
+
+SQL> grant drop public synonym to orax;
+
+Grant succeeded.
+
+SQL> grant create public synonym to orax;
+
+Grant succeeded.
+
+SQL> grant create job to orax;
+
+Grant succeeded.
+
+SQL> grant manage scheduler to orax;
+
+Grant succeeded.
+
+SQL> 
+SQL> grant execute on sys.dbms_stats to orax;
+
+Error starting at line : 31 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\create_users.sql
+In command -
+grant execute on sys.dbms_stats to orax
+Error report -
+ORA-01031: insufficient privileges
+01031. 00000 -  "insufficient privileges"
+*Cause:    An attempt was made to perform a database operation without
+           the necessary privileges.
+*Action:   Ask your database administrator or designated security
+           administrator to grant you the necessary privileges
+SQL> 
+SQL> GRANT DEBUG CONNECT SESSION TO orax;
+
+Grant succeeded.
+
+SQL> GRANT DEBUG ANY PROCEDURE TO orax;
+
+Grant succeeded.
+
+SQL> GRANT EXECUTE ANY PROCEDURE TO orax;
+
+Grant succeeded.
+
+SQL> 
+SQL> drop user ora1 cascade;
+
+Error starting at line : 37 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\create_users.sql
+In command -
+drop user ora1 cascade
+Error report -
+ORA-01918: user 'ORA1' does not exist
+01918. 00000 -  "user '%s' does not exist"
+*Cause:    User does not exist in the system.
+*Action:   Verify the user name is correct.
+SQL> create user ora1 identified by ora1;
+
+User ORA1 created.
+
+SQL> grant orax to ora1;
+
+Grant succeeded.
+
+SQL> grant create job to ora1;
+
+Grant succeeded.
+
+SQL> grant create table to ora1;
+
+Grant succeeded.
+
+SQL> alter user ora1 default tablespace users temporary tablespace temp
+  2  quota unlimited on users;
+
+User ORA1 altered.
+
+SQL> 
+SQL> drop user ora2 cascade;
+
+Error starting at line : 45 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\create_users.sql
+In command -
+drop user ora2 cascade
+Error report -
+ORA-01918: user 'ORA2' does not exist
+01918. 00000 -  "user '%s' does not exist"
+*Cause:    User does not exist in the system.
+*Action:   Verify the user name is correct.
+SQL> create user ora2 identified by ora2;
+
+User ORA2 created.
+
+SQL> grant orax to ora2;
+
+Grant succeeded.
+
+SQL> grant create job to ora2;
+
+Grant succeeded.
+
+SQL> grant create table to ora2;
+
+Grant succeeded.
+
+SQL> alter user ora2 default tablespace users temporary tablespace temp
+  2  quota unlimited on users;
+
+User ORA2 altered.
+
+SQL> 
+SQL> drop user ora3 cascade;
+
+Error starting at line : 53 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\create_users.sql
+In command -
+drop user ora3 cascade
+Error report -
+ORA-01918: user 'ORA3' does not exist
+01918. 00000 -  "user '%s' does not exist"
+*Cause:    User does not exist in the system.
+*Action:   Verify the user name is correct.
+SQL> create user ora3 identified by ora3;
+
+User ORA3 created.
+
+SQL> grant orax to ora3;
+
+Grant succeeded.
+
+SQL> grant create job to ora3;
+
+Grant succeeded.
+
+SQL> grant create table to ora3;
+
+Grant succeeded.
+
+SQL> alter user ora3 default tablespace users temporary tablespace temp
+  2  quota unlimited on users;
+
+User ORA3 altered.
+
+SQL> 
+SQL> drop user ora4 cascade;
+
+Error starting at line : 61 File @ C:\Users\ahasani\Desktop\plsql mooc\setup_files\create_users.sql
+In command -
+drop user ora4 cascade
+Error report -
+ORA-01918: user 'ORA4' does not exist
+01918. 00000 -  "user '%s' does not exist"
+*Cause:    User does not exist in the system.
+*Action:   Verify the user name is correct.
+SQL> create user ora4 identified by ora4;
+
+User ORA4 created.
+
+SQL> grant orax to ora4;
+
+Grant succeeded.
+
+SQL> grant create job to ora4;
+
+Grant succeeded.
+
+SQL> grant create table to ora4;
+
+Grant succeeded.
+
+SQL> alter user ora4 default tablespace users temporary tablespace temp
+  2  quota unlimited on users;
+
+User ORA4 altered.
+
+SQL> 
+SQL> spool off
