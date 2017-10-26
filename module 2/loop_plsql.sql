@@ -38,7 +38,7 @@ BEGIN
         v_bonus :=
             CASE
                 WHEN round( (months_between(SYSDATE,v_hire_date) / 12),0) = 10 THEN v_salary * 0.5
-                WHEN round( (months_between(SYSDATE,v_hire_date) / 12),0) > 5 AND ( ( months_between(SYSDATE,v_hire_date) / 12 ),0 ) < 10 THEN v_salary * 0.25
+                WHEN round( (months_between(SYSDATE,v_hire_date) / 12),0) > 5 AND round( ( months_between(SYSDATE,v_hire_date) / 12 ),0 ) < 10 THEN v_salary * 0.25
                 ELSE v_salary * 0.1
             END;
 
