@@ -2,7 +2,7 @@ SET SERVEROUTPUT ON;
 
 DECLARE
     TYPE email_table_type IS
-        TABLE OF VARCHAR2(20);
+        TABLE OF VARCHAR2(35);
     emails   email_table_type := email_table_type('albi.hasani@outlook.com','albin.hasani@ikubinfo.al','albihasani94@gmail.com');
 BEGIN
     FOR i IN emails.first..emails.last LOOP
